@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Model;
 
 use Assert\Assert;
 use Symfony\Component\EventDispatcher\GenericEvent;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Model;
 
 use Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface;
 use PHPUnit\Framework\TestCase;
@@ -12,8 +12,8 @@ use Akeneo\Pim\Structure\Component\Model\Attribute;
 use Akeneo\Pim\Structure\Component\Model\Family;
 use Akeneo\Pim\Enrichment\Component\Product\Model\ProductModel;
 use Akeneo\Pim\Enrichment\Component\Product\Model\Product;
-use Frmoda\EventsApiBundle\Model\CreateRemoveProductEventTypePayload;
-use Frmoda\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\CreateRemoveProductEventTypePayload;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
 
 class CreateRemoveProductEventTypePayloadTest extends TestCase
 {

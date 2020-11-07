@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\EventType;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\EventType;
 
 use PHPUnit\Framework\TestCase;
-use Frmoda\EventsApiBundle\EventType\EventIsNotSupportedException;
-use Frmoda\EventsApiBundle\EventType\EventTypeConfiguration;
-use Frmoda\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventIsNotSupportedException;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventTypeConfiguration;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericEventInterface;
 
 class EventTypeConfigurationTest extends TestCase
 {

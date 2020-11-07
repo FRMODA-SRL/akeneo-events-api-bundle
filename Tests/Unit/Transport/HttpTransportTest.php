@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Transport;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Transport;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
-use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
-use Frmoda\EventsApiBundle\Transport\HttpTransport;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\Transport\HttpTransport;
 
 class HttpTransportTest extends TestCase
 {

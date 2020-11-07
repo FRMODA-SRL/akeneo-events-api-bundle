@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Guzzle;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Guzzle;
 
 use GuzzleHttp\ClientInterface as GuzzleHttpClient;
 use GuzzleHttp\Exception\GuzzleException;
@@ -11,8 +11,8 @@ use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
-use Frmoda\EventsApiBundle\Guzzle\GuzzleHttpClientAdapter;
-use Frmoda\EventsApiBundle\HttpClient\Exception as HttpClientException;
+use Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleHttpClientAdapter;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\Exception as HttpClientException;
 
 class GuzzleHttpClientAdapterTest extends TestCase
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Guzzle;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Guzzle;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
-use Frmoda\EventsApiBundle\Guzzle\GuzzleRequestFactory;
+use Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleRequestFactory;
 
 class GuzzleRequestFactoryTest extends TestCase
 {

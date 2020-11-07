@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\EventType;
+namespace Frmoda\Bundle\EventsApiBundle\EventType;
 
 class EventType
 {

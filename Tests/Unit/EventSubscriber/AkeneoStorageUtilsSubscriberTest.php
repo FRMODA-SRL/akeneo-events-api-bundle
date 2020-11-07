@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\EventSubscriber;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\EventSubscriber;
 
 use Akeneo\Tool\Component\StorageUtils\Event\RemoveEvent;
 use Akeneo\Tool\Component\Versioning\Model\VersionableInterface;
@@ -10,11 +10,11 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
-use Frmoda\EventsApiBundle\EventSubscriber\AkeneoStorageUtilsSubscriber;
-use Frmoda\EventsApiBundle\Model\GenericCreateEntityEventInterface;
-use Frmoda\EventsApiBundle\Model\EventsHandler;
-use Frmoda\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
-use Frmoda\EventsApiBundle\Model\GenericUpdateEntityEventInterface;
+use Frmoda\Bundle\EventsApiBundle\EventSubscriber\AkeneoStorageUtilsSubscriber;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericCreateEntityEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\EventsHandler;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericUpdateEntityEventInterface;
 
 class AkeneoStorageUtilsSubscriberTest extends TestCase
 {

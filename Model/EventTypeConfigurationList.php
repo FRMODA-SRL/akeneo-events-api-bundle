@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Model;
 
 use ArrayIterator;
 use IteratorAggregate;
-use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventTypeConfigurationInterface;
 
 class EventTypeConfigurationList implements IteratorAggregate
 {

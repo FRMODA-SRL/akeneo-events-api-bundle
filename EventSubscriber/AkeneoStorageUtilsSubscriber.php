@@ -2,7 +2,7 @@
 
 declare( strict_types=1);
 
-namespace Frmoda\EventsApiBundle\EventSubscriber;
+namespace Frmoda\Bundle\EventsApiBundle\EventSubscriber;
 
 use Akeneo\Tool\Component\StorageUtils\Event\RemoveEvent;
 use Akeneo\Tool\Component\StorageUtils\StorageEvents;
@@ -11,11 +11,11 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
 use Throwable;
-use Frmoda\EventsApiBundle\Model\CreateEntityEventAdapter;
-use Frmoda\EventsApiBundle\Model\GenericEventInterface;
-use Frmoda\EventsApiBundle\Model\EventsHandler;
-use Frmoda\EventsApiBundle\Model\RemoveEntityEventAdapter;
-use Frmoda\EventsApiBundle\Model\UpdateEntityEventAdapter;
+use Frmoda\Bundle\EventsApiBundle\Model\CreateEntityEventAdapter;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\EventsHandler;
+use Frmoda\Bundle\EventsApiBundle\Model\RemoveEntityEventAdapter;
+use Frmoda\Bundle\EventsApiBundle\Model\UpdateEntityEventAdapter;
 
 class AkeneoStorageUtilsSubscriber implements EventSubscriberInterface
 {

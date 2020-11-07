@@ -1,6 +1,6 @@
 <?php
 
-namespace Frmoda\EventsApiBundle\DependencyInjection\Compiler;
+namespace Frmoda\Bundle\EventsApiBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

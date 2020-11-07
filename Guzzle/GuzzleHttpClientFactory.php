@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Guzzle;
+namespace Frmoda\Bundle\EventsApiBundle\Guzzle;
 
 use Assert\Assert;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use Psr\Http\Client\ClientInterface;
-use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
 
 class GuzzleHttpClientFactory implements HttpClientFactoryInterface
 {

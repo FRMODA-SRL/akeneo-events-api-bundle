@@ -1,6 +1,6 @@
 <?php
 
-namespace Frmoda\EventsApiBundle\DependencyInjection;
+namespace Frmoda\Bundle\EventsApiBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

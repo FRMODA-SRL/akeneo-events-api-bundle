@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\HttpClient;
+namespace Frmoda\Bundle\EventsApiBundle\HttpClient;
 
 use Psr\Http\Message\RequestInterface;
 

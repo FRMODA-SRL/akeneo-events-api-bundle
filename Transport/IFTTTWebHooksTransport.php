@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Transport;
+namespace Frmoda\Bundle\EventsApiBundle\Transport;
 
-use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
 
 class IFTTTWebHooksTransport implements Transport
 {

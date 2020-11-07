@@ -27,7 +27,7 @@ To enable the bundle add to the *config/bundles.php* file:
 ```php
 return [
     // ...
-    Frmoda\EventsApiBundle\FrmodaEventsApiBundle::class => ['all' => true]
+    Frmoda\Bundle\EventsApiBundle\FrmodaEventsApiBundle::class => ['all' => true]
 ]
 ```
 

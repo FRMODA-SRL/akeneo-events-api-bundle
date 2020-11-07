@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Transport;
+namespace Frmoda\Bundle\EventsApiBundle\Transport;
 
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
 
 interface Transport
 {

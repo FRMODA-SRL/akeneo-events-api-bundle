@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\EventType;
+namespace Frmoda\Bundle\EventsApiBundle\EventType;
 
-use Frmoda\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericEventInterface;
 
 final class EventTypeConfiguration implements EventTypeConfigurationInterface
 {

@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Model;
 
 use Assert\InvalidArgumentException as AssertionInvalidArgumentException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use Frmoda\EventsApiBundle\EventType\EventType;
-use Frmoda\EventsApiBundle\Model\ResolveEventType;
-use Frmoda\EventsApiBundle\Model\GenericEventInterface;
-use Frmoda\EventsApiBundle\Model\EventsHandler;
-use Frmoda\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
-use Frmoda\EventsApiBundle\Model\OuterEventDispatcherInterface;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEventBuilder;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventType;
+use Frmoda\Bundle\EventsApiBundle\Model\ResolveEventType;
+use Frmoda\Bundle\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\Bundle\EventsApiBundle\Model\EventsHandler;
+use Frmoda\Bundle\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
+use Frmoda\Bundle\EventsApiBundle\Model\OuterEventDispatcherInterface;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEventBuilder;
 
 class EventsHandlerTest extends TestCase
 {

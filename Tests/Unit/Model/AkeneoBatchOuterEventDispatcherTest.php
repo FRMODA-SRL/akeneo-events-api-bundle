@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Model;
 
 use Akeneo\Tool\Bundle\BatchBundle\Launcher\JobLauncherInterface;
 use Akeneo\Tool\Component\Batch\Model\JobInstance;
@@ -12,8 +12,8 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
-use Frmoda\EventsApiBundle\Model\AkeneoBatchOuterEventDispatcher;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\Model\AkeneoBatchOuterEventDispatcher;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
 
 class AkeneoBatchOuterEventDispatcherTest extends TestCase
 {

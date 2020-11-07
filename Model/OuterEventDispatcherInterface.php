@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Model;
 
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
 
 interface OuterEventDispatcherInterface
 {

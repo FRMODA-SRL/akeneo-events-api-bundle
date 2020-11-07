@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Model;
+namespace Frmoda\Bundle\EventsApiBundle\Model;
 
 use Assert\Assert;
-use Frmoda\EventsApiBundle\EventType\EventIsNotSupportedException;
-use Frmoda\EventsApiBundle\EventType\EventType;
-use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventIsNotSupportedException;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventType;
+use Frmoda\Bundle\EventsApiBundle\EventType\EventTypeConfigurationInterface;
 
 class ResolveEventType
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Frmoda\EventsApiBundle\HttpClient;
+namespace Frmoda\Bundle\EventsApiBundle\HttpClient;
 
 use Psr\Http\Client\ClientExceptionInterface;
 use RuntimeException;

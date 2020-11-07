@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\OuterEvent;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\OuterEvent;
 
 use PHPUnit\Framework\TestCase;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
 
 class OuterEventTest extends TestCase
 {

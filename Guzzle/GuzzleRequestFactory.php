@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Guzzle;
+namespace Frmoda\Bundle\EventsApiBundle\Guzzle;
 
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
-use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\RequestFactoryInterface;
 
 class GuzzleRequestFactory implements RequestFactoryInterface
 {

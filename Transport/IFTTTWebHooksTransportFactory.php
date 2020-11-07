@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Transport;
+namespace Frmoda\Bundle\EventsApiBundle\Transport;
 
 use Assert\Assert;
-use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\Bundle\EventsApiBundle\HttpClient\RequestFactoryInterface;
 
 class IFTTTWebHooksTransportFactory implements TransportFactoryInterface
 {

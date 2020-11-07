@@ -1,17 +1,17 @@
 parameters:
-    pim_events_api.event_subscriber.akeneo_storage_utils_subscriber.class: Frmoda\EventsApiBundle\EventSubscriber\AkeneoStorageUtilsSubscriber
-    pim_events_api.events_handler.class: Frmoda\EventsApiBundle\Model\EventsHandler
-    pim_events_api.outer_event_builder.class: Frmoda\EventsApiBundle\OuterEvent\OuterEventBuilder
-    pim_events_api.create_event_type_payload.class: Frmoda\EventsApiBundle\Model\CreateEventTypePayload
-    pim_events_api.create_remove_product_event_type_payload.class: Frmoda\EventsApiBundle\Model\CreateRemoveProductEventTypePayload
-    pim_events_api.create_remove_event_type_payload.class: Frmoda\EventsApiBundle\Model\CreateRemoveEventTypePayload
-    pim_events_api.resolve_event_type.class: Frmoda\EventsApiBundle\Model\ResolveEventType
-    pim_events_api.event_type_configuration_list.class: Frmoda\EventsApiBundle\Model\EventTypeConfigurationList
-    pim_events_api.akeneo_batch_outer_event_dispatcher.class: Frmoda\EventsApiBundle\Model\AkeneoBatchOuterEventDispatcher
-    pim_events_api.guzzle.http_client_factory.class: Frmoda\EventsApiBundle\Guzzle\GuzzleHttpClientFactory
-    pim_events_api.guzzle.request_factory.class: Frmoda\EventsApiBundle\Guzzle\GuzzleRequestFactory
-    pim_events_api.transport_factory.http.class: Frmoda\EventsApiBundle\Transport\HttpTransportFactory
-    pim_events_api.transport_factory.iftt_webhooks.class: Frmoda\EventsApiBundle\Transport\IFTTTWebHooksTransportFactory
+    pim_events_api.event_subscriber.akeneo_storage_utils_subscriber.class: Frmoda\Bundle\EventsApiBundle\EventSubscriber\AkeneoStorageUtilsSubscriber
+    pim_events_api.events_handler.class: Frmoda\Bundle\EventsApiBundle\Model\EventsHandler
+    pim_events_api.outer_event_builder.class: Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEventBuilder
+    pim_events_api.create_event_type_payload.class: Frmoda\Bundle\EventsApiBundle\Model\CreateEventTypePayload
+    pim_events_api.create_remove_product_event_type_payload.class: Frmoda\Bundle\EventsApiBundle\Model\CreateRemoveProductEventTypePayload
+    pim_events_api.create_remove_event_type_payload.class: Frmoda\Bundle\EventsApiBundle\Model\CreateRemoveEventTypePayload
+    pim_events_api.resolve_event_type.class: Frmoda\Bundle\EventsApiBundle\Model\ResolveEventType
+    pim_events_api.event_type_configuration_list.class: Frmoda\Bundle\EventsApiBundle\Model\EventTypeConfigurationList
+    pim_events_api.akeneo_batch_outer_event_dispatcher.class: Frmoda\Bundle\EventsApiBundle\Model\AkeneoBatchOuterEventDispatcher
+    pim_events_api.guzzle.http_client_factory.class: Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleHttpClientFactory
+    pim_events_api.guzzle.request_factory.class: Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleRequestFactory
+    pim_events_api.transport_factory.http.class: Frmoda\Bundle\EventsApiBundle\Transport\HttpTransportFactory
+    pim_events_api.transport_factory.iftt_webhooks.class: Frmoda\Bundle\EventsApiBundle\Transport\IFTTTWebHooksTransportFactory
 
 services:
     pim_events_api.akeneo_batch_outer_event_dispatcher:

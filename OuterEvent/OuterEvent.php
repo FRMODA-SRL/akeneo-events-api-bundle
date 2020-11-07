@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\OuterEvent;
+namespace Frmoda\Bundle\EventsApiBundle\OuterEvent;
 
 use Assert\Assert;
 use JsonSerializable;

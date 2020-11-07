@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Job;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Job;
 
 use Akeneo\Tool\Component\Batch\Job\JobParameters;
 use Akeneo\Tool\Component\Batch\Model\JobExecution;
 use Akeneo\Tool\Component\Batch\Model\StepExecution;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Frmoda\EventsApiBundle\Job\DeliverOuterEventTasklet;
-use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
-use Frmoda\EventsApiBundle\Transport\Transport;
+use Frmoda\Bundle\EventsApiBundle\Job\DeliverOuterEventTasklet;
+use Frmoda\Bundle\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\Bundle\EventsApiBundle\Transport\Transport;
 
 class DeliverOuterEventTaskletTest extends TestCase
 {

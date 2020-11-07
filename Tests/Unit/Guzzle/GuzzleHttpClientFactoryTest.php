@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frmoda\EventsApiBundle\Tests\Unit\Guzzle;
+namespace Frmoda\Bundle\EventsApiBundle\Tests\Unit\Guzzle;
 
 use Assert\InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Frmoda\EventsApiBundle\Guzzle\GuzzleHttpClientAdapter;
-use Frmoda\EventsApiBundle\Guzzle\GuzzleHttpClientFactory;
+use Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleHttpClientAdapter;
+use Frmoda\Bundle\EventsApiBundle\Guzzle\GuzzleHttpClientFactory;
 
 class GuzzleHttpClientFactoryTest extends TestCase
 {
