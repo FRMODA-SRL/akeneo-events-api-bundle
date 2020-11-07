@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Transport;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Transport;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
-use Trilix\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Trilix\EventsApiBundle\HttpClient\RequestFactoryInterface;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
-use Trilix\EventsApiBundle\Transport\IFTTTWebHooksTransport;
+use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\Transport\IFTTTWebHooksTransport;
 
 class IFTTTWebHooksTransportTest extends TestCase
 {

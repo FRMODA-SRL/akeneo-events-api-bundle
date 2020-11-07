@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 interface GenericEventInterface
 {

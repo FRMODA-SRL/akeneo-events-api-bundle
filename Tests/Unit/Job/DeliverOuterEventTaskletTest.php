@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Job;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Job;
 
 use Akeneo\Tool\Component\Batch\Job\JobParameters;
 use Akeneo\Tool\Component\Batch\Model\JobExecution;
 use Akeneo\Tool\Component\Batch\Model\StepExecution;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Trilix\EventsApiBundle\Job\DeliverOuterEventTasklet;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
-use Trilix\EventsApiBundle\Transport\Transport;
+use Frmoda\EventsApiBundle\Job\DeliverOuterEventTasklet;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\Transport\Transport;
 
 class DeliverOuterEventTaskletTest extends TestCase
 {

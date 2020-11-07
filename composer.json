@@ -1,14 +1,14 @@
 {
-    "name": "trilix/akeneo-events-api-bundle",
+    "name": "frmoda/akeneo-events-api-bundle",
     "type": "symfony-bundle",
     "description": "Akeneo PIM Events API Bundle",
     "keywords": ["Akeneo", "PIM", "Events", "API"],
-    "homepage": "https://www.trilix.co",
+    "homepage": "https://www.frmoda.co",
     "license": "MIT",
     "authors": [
         {
-            "name": "Trilix GmbH",
-            "homepage": "https://www.trilix.co"
+            "name": "Frmoda GmbH",
+            "homepage": "https://www.frmoda.co"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
-        "psr-4": { "Trilix\\EventsApiBundle\\": "./" }
+        "psr-4": { "Frmoda\\EventsApiBundle\\": "./" }
     },
     "minimum-stability": "stable",
     "extra": {

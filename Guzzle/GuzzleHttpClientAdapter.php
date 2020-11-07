@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Guzzle;
+namespace Frmoda\EventsApiBundle\Guzzle;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Trilix\EventsApiBundle\HttpClient\Exception as HttpClientException;
+use Frmoda\EventsApiBundle\HttpClient\Exception as HttpClientException;
 
 class GuzzleHttpClientAdapter implements ClientInterface
 {

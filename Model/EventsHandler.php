@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Assert\Assert;
 use Psr\Log\LoggerInterface;
-use Trilix\EventsApiBundle\OuterEvent\OuterEventBuilder;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEventBuilder;
 
 class EventsHandler
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\EventType;
+namespace Frmoda\EventsApiBundle\EventType;
 
-use Trilix\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\EventsApiBundle\Model\GenericEventInterface;
 
 final class EventTypeConfiguration implements EventTypeConfigurationInterface
 {

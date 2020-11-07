@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
 
 use PHPUnit\Framework\TestCase;
 use Assert\InvalidArgumentException;
@@ -11,8 +11,8 @@ use Akeneo\Pim\Structure\Component\Model\Attribute;
 use Akeneo\Pim\Structure\Component\Model\Family;
 use Akeneo\Pim\Enrichment\Component\Product\Model\ProductModel;
 use Akeneo\Pim\Enrichment\Component\Product\Model\Product;
-use Trilix\EventsApiBundle\Model\CreateRemoveEventTypePayload;
-use Trilix\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
+use Frmoda\EventsApiBundle\Model\CreateRemoveEventTypePayload;
+use Frmoda\EventsApiBundle\Model\GenericRemoveEntityEventInterface;
 
 class CreateRemoveEventTypePayloadTest extends TestCase
 {

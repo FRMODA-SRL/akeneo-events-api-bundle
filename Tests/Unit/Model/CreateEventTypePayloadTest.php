@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
 
 use Akeneo\Pim\Enrichment\Component\Product\Model\AbstractProduct;
 use PHPUnit\Framework\Constraint\IsType;
@@ -12,9 +12,9 @@ use RuntimeException;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerExceptionInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 use Symfony\Component\Serializer\SerializerInterface;
-use Trilix\EventsApiBundle\Model\CreateEventTypePayload;
-use Trilix\EventsApiBundle\Model\GenericEventInterface;
-use Trilix\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
+use Frmoda\EventsApiBundle\Model\CreateEventTypePayload;
+use Frmoda\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
 
 class CreateEventTypePayloadTest extends TestCase
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Assert\Assert;
-use Trilix\EventsApiBundle\EventType\EventIsNotSupportedException;
-use Trilix\EventsApiBundle\EventType\EventType;
-use Trilix\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\EventsApiBundle\EventType\EventIsNotSupportedException;
+use Frmoda\EventsApiBundle\EventType\EventType;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
 
 class ResolveEventType
 {

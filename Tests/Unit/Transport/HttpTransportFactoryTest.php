@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Transport;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Transport;
 
 use Assert\InvalidArgumentException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Trilix\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Trilix\EventsApiBundle\HttpClient\RequestFactoryInterface;
-use Trilix\EventsApiBundle\Transport\HttpTransport;
-use Trilix\EventsApiBundle\Transport\HttpTransportFactory;
+use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\EventsApiBundle\Transport\HttpTransport;
+use Frmoda\EventsApiBundle\Transport\HttpTransportFactory;
 
 class HttpTransportFactoryTest extends TestCase
 {

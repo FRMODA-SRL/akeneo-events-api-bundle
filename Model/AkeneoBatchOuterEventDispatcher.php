@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Akeneo\Tool\Bundle\BatchBundle\Launcher\JobLauncherInterface;
 use Akeneo\Tool\Component\StorageUtils\Repository\IdentifiableObjectRepositoryInterface;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
-use Trilix\EventsApiBundle\Job\JobParameters\DeliverOuterEventConstraintCollectionProvider;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\Job\JobParameters\DeliverOuterEventConstraintCollectionProvider;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
 
 class AkeneoBatchOuterEventDispatcher implements OuterEventDispatcherInterface
 {

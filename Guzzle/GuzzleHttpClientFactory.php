@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Guzzle;
+namespace Frmoda\EventsApiBundle\Guzzle;
 
 use Assert\Assert;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use Psr\Http\Client\ClientInterface;
-use Trilix\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
 
 class GuzzleHttpClientFactory implements HttpClientFactoryInterface
 {

@@ -4,7 +4,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="Trilix Events API Unit Tests">
+        <testsuite name="Frmoda Events API Unit Tests">
             <directory suffix="Test.php">Tests/Unit</directory>
         </testsuite>
     </testsuites>

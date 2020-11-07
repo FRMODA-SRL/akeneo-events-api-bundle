@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\EventType;
+namespace Frmoda\EventsApiBundle\EventType;
 
 use RuntimeException;
 

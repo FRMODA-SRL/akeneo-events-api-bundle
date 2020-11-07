@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Job\JobParameters;
+namespace Frmoda\EventsApiBundle\Job\JobParameters;
 
 use Akeneo\Tool\Component\Batch\Job\JobInterface;
 use Akeneo\Tool\Component\Batch\Job\JobParameters\ConstraintCollectionProviderInterface;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\OuterEvent;
+namespace Frmoda\EventsApiBundle\Tests\Unit\OuterEvent;
 
 use PHPUnit\Framework\TestCase;
-use Trilix\EventsApiBundle\OuterEvent\OuterEventBuilder;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEventBuilder;
 
 class OuterEventBuilderTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\HttpClient;
+namespace Frmoda\EventsApiBundle\HttpClient;
 
 use Psr\Http\Client\ClientInterface;
 

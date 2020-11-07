@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\OuterEvent;
+namespace Frmoda\EventsApiBundle\OuterEvent;
 
 use Assert\Assert;
 use JsonSerializable;

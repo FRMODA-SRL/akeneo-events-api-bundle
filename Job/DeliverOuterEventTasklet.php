@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Job;
+namespace Frmoda\EventsApiBundle\Job;
 
 use Akeneo\Tool\Component\Batch\Model\StepExecution;
 use Akeneo\Tool\Component\Connector\Step\TaskletInterface;
-use Trilix\EventsApiBundle\Job\JobParameters\DeliverOuterEventConstraintCollectionProvider;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
-use Trilix\EventsApiBundle\Transport\Transport;
+use Frmoda\EventsApiBundle\Job\JobParameters\DeliverOuterEventConstraintCollectionProvider;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\Transport\Transport;
 
 class DeliverOuterEventTasklet implements TaskletInterface
 {

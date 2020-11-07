@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Transport;
+namespace Frmoda\EventsApiBundle\Transport;
 
 interface TransportFactoryInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Akeneo\Tool\Component\StorageUtils\Event\RemoveEvent;
 use Assert\Assert;

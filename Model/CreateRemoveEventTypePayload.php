@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Assert\Assert;
 use Akeneo\Pim\Enrichment\Component\Category\Model\CategoryInterface;

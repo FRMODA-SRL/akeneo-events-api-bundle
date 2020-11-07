@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use ArrayIterator;
 use IteratorAggregate;
-use Trilix\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
 
 class EventTypeConfigurationList implements IteratorAggregate
 {

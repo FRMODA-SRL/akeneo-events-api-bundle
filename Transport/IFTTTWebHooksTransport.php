@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Transport;
+namespace Frmoda\EventsApiBundle\Transport;
 
-use Trilix\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
-use Trilix\EventsApiBundle\HttpClient\RequestFactoryInterface;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\HttpClient\HttpClientFactoryInterface;
+use Frmoda\EventsApiBundle\HttpClient\RequestFactoryInterface;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
 
 class IFTTTWebHooksTransport implements Transport
 {

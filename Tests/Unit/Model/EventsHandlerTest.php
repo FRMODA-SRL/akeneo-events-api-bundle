@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
 
 use Assert\InvalidArgumentException as AssertionInvalidArgumentException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use Trilix\EventsApiBundle\EventType\EventType;
-use Trilix\EventsApiBundle\Model\ResolveEventType;
-use Trilix\EventsApiBundle\Model\GenericEventInterface;
-use Trilix\EventsApiBundle\Model\EventsHandler;
-use Trilix\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
-use Trilix\EventsApiBundle\Model\OuterEventDispatcherInterface;
-use Trilix\EventsApiBundle\OuterEvent\OuterEvent;
-use Trilix\EventsApiBundle\OuterEvent\OuterEventBuilder;
+use Frmoda\EventsApiBundle\EventType\EventType;
+use Frmoda\EventsApiBundle\Model\ResolveEventType;
+use Frmoda\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\EventsApiBundle\Model\EventsHandler;
+use Frmoda\EventsApiBundle\Model\PayloadCanNotBeCreatedException;
+use Frmoda\EventsApiBundle\Model\OuterEventDispatcherInterface;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEvent;
+use Frmoda\EventsApiBundle\OuterEvent\OuterEventBuilder;
 
 class EventsHandlerTest extends TestCase
 {

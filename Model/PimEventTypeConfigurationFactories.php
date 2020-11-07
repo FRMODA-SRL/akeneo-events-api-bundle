@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Model;
+namespace Frmoda\EventsApiBundle\Model;
 
 use Akeneo\Pim\Enrichment\Component\Category\Model\CategoryInterface;
 use Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface;
 use Akeneo\Pim\Enrichment\Component\Product\Model\ProductModelInterface;
 use Akeneo\Pim\Structure\Component\Model\AttributeInterface;
 use Akeneo\Pim\Structure\Component\Model\FamilyInterface;
-use Trilix\EventsApiBundle\EventType\EventTypeConfiguration;
-use Trilix\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfiguration;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
 
 class PimEventTypeConfigurationFactories
 {

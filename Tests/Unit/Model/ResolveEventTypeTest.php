@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Model;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Model;
 
 use Akeneo\Pim\Enrichment\Component\Product\Model\AbstractProduct;
 use PHPUnit\Framework\TestCase;
-use Trilix\EventsApiBundle\EventType\EventIsNotSupportedException;
-use Trilix\EventsApiBundle\EventType\EventType;
-use Trilix\EventsApiBundle\EventType\EventTypeConfigurationInterface;
-use Trilix\EventsApiBundle\Model\EventTypeConfigurationList;
-use Trilix\EventsApiBundle\Model\ResolveEventType;
-use Trilix\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\EventsApiBundle\EventType\EventIsNotSupportedException;
+use Frmoda\EventsApiBundle\EventType\EventType;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfigurationInterface;
+use Frmoda\EventsApiBundle\Model\EventTypeConfigurationList;
+use Frmoda\EventsApiBundle\Model\ResolveEventType;
+use Frmoda\EventsApiBundle\Model\GenericEventInterface;
 
 class ResolveEventTypeTest extends TestCase
 {

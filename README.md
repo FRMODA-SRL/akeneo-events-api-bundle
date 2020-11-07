@@ -19,7 +19,7 @@ All you need is PIM Events API Bundle and an endpoint where to send Akeneo PIM e
 Install via composer:
 
 ```bash
-php composer.phar require trilix/akeneo-events-api-bundle:^0.6.0
+php composer.phar require fromda/akeneo-events-api-bundle:^0.6.0
 ```
 
 To enable the bundle add to the *config/bundles.php* file:
@@ -27,7 +27,7 @@ To enable the bundle add to the *config/bundles.php* file:
 ```php
 return [
     // ...
-    Trilix\EventsApiBundle\TrilixEventsApiBundle::class => ['all' => true]
+    Frmoda\EventsApiBundle\FrmodaEventsApiBundle::class => ['all' => true]
 ]
 ```
 
@@ -39,10 +39,10 @@ EVENTS_API_REQUEST_URL=your_request_url
 
 where `your_request_url` is a target location where all the events (see [event types](#Event-types-delivered-over-Events-API)) will be delivered.
 
-Create file *config/packages/trilix_events_api.yml* with the following:
+Create file *config/packages/fromda_events_api.yml* with the following:
 
 ```yaml
-trilix_events_api:
+fromda_events_api:
     transport:
         factory: "pim_events_api.transport_factory.http"
         options:

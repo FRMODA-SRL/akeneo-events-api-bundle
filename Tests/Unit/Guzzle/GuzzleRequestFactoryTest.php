@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\Guzzle;
+namespace Frmoda\EventsApiBundle\Tests\Unit\Guzzle;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
-use Trilix\EventsApiBundle\Guzzle\GuzzleRequestFactory;
+use Frmoda\EventsApiBundle\Guzzle\GuzzleRequestFactory;
 
 class GuzzleRequestFactoryTest extends TestCase
 {

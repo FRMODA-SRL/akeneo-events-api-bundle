@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Trilix\EventsApiBundle\Tests\Unit\EventType;
+namespace Frmoda\EventsApiBundle\Tests\Unit\EventType;
 
 use PHPUnit\Framework\TestCase;
-use Trilix\EventsApiBundle\EventType\EventIsNotSupportedException;
-use Trilix\EventsApiBundle\EventType\EventTypeConfiguration;
-use Trilix\EventsApiBundle\Model\GenericEventInterface;
+use Frmoda\EventsApiBundle\EventType\EventIsNotSupportedException;
+use Frmoda\EventsApiBundle\EventType\EventTypeConfiguration;
+use Frmoda\EventsApiBundle\Model\GenericEventInterface;
 
 class EventTypeConfigurationTest extends TestCase
 {

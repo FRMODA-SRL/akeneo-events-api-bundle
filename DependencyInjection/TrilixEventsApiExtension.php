@@ -1,15 +1,15 @@
 <?php
 
-namespace Trilix\EventsApiBundle\DependencyInjection;
+namespace Frmoda\EventsApiBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
-use Trilix\EventsApiBundle\Transport\Transport;
+use Frmoda\EventsApiBundle\Transport\Transport;
 
-class TrilixEventsApiExtension extends Extension
+class FrmodaEventsApiExtension extends Extension
 {
     /**
      * {@inheritdoc}
